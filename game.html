@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="Rock Paper Scissors game">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+  <section class="starting-game-area" id="starting-game-area">
+   <div id="wrap-around">
+
+     <button onclick="window.location.href='index.html'" id="homepage" title="Home">
+     <i class="fa-solid fa-house"></i>
+     </button>
+    
+    <h1 class="h1">Rock - Paper - Scissors</h1>
+
+     <div id="choices">
+       <button onclick="playGame('rock')" title="Rock">✊</button>
+       <button onclick="playGame('paper')" title="Paper">🤚</button>
+       <button onclick="playGame('scissors')" title="Scissor">✌️</button>
+     </div>  
+       
+     <div id="playerDisplay">PLAYER:</div>
+     <div id="computerDisplay">COMPUTER:</div>
+     <div id="resultDisplay"></div>
+       
+     <div id="scoreDisplay">
+      <p>Player score: <span id="playerScoreDisplay">0</span></p>
+      <p>Computer score: <span id="computerScoreDisplay">0</span></p>
+  </div>
+
+   <div class="container">
+      <button id="reset-btn" onclick="resetGame()">Restart Game</button>
+      <button type="button" class="btn" onclick="openPopup()">Instructions</button>
+      <div class="popup" id="popup">
+         <i class="fa-solid fa-scale-balanced"></i>
+         <h2>Instructions for Rock, Paper, Scissors Game</h2>
+         <p>The goal of the game is to defeat the opponent 
+            by selecting a hand symbol that beats their choice based on the following rules:</p>
+            <menu>
+          <li>Rock crushes Scissors</li>
+          <li>Scissors cuts Paper</li>
+          <li>Paper wraps Rock</li></menu>
+         <p>Click on the hand symbol you want to play and see if you win!</p>
+         <p>Good luck!</p>
+         <button type="button" onclick="closePopup()">OK</button>
+        
+      </div>
+   </div>
+
+</div>
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>  
