@@ -8,8 +8,8 @@ This project is a browser-based Rock Paper Scissors game where players can compe
 
 
 ## Live Demo
-Homepage: Rock Paper Scissors Homepage
-Game Page: Play the Game
+- **Homepage**: https://bjoernholmlund.github.io/rock-paper-scissor/index.html
+* **Game Page**: https://bjoernholmlund.github.io/rock-paper-scissor/game.html
 
 ## Features
 - **Homepage**: A welcoming page introducing the game.
@@ -23,29 +23,18 @@ Game Page: Play the Game
 * **Reset Function**: Resets scores and rounds, allowing players to start a new match at any time.
 
 ## Technologies Used
-**HTML**: Structure of the website.
-**CSS**: Styling for layout, color, and background.
-**JavaScript**: Game logic, including random computer choices and score updates.
+- **HTML**: Structure of the website.
+* **CSS**: Styling for layout, color, and background.
++ **JavaScript**: Game logic, including random computer choices and score updates.
 
 
+## Testing
 
-Alternatively, you can play the game here.
 
-Gameplay
-Select a Move: Choose rock, paper, or scissors.
-Round Result: The result will be shown after each choice, displaying both the player and computer's moves.
-Scores: Track the scores displayed on the screen.
-End of Game: After 5 rounds, a message will declare the final winner or announce a tie.
-Reset Option: Click the reset button to start a new game.
-Project Structure
-index.html: The landing page for the game.
-game.html: The main game interface.
-style.css: Styling and layout.
-script.js: JavaScript for handling game logic and user interactions.
-assets/: Folder containing images and icons.
-Future Enhancements
-Difficulty Levels: Add easy, medium, and hard modes.
-Sound Effects: Add audio feedback on button clicks and results.
-Score History: Display past game results for the player.
-License
-This project is open-source and available under the MIT License.
+### Validator Testing
+
+- HTML 
+
+* CSS
+
++ JavaScript
