@@ -64,3 +64,22 @@ I also confirmed that this project works as intended on mobile devices and deskt
   - Function with the largest signature take 1 arguments, while the median is 0.
   - Largest function has 25 statements in it, while the median is 4.
   - The most complex function has a cyclomatic complexity value of 14 while the median is 1
+
+  ## Deployment
+
+  ### To deploy the project 
+
+  The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
+  In the GitHub repository, navigate to the **Settings** tab.
+  Once in Settings, navigate to the **Pages** tab on the left-hand side.
+  Under **Source**, select the branch to **master**, then click **save**.
+  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  The live link is here https://bjoernholmlund.github.io/rock-paper-scissor/
+
+  ## Credits 
+
+  ### Content
+  - The home button is taken from <a href="https://fontawesome.com/">Font awesome</a>
+  - The Emoji buttons were take from <a href="https://getemoji.com/">Getemoji</a>
