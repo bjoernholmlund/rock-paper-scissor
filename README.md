@@ -1,6 +1,5 @@
 # Rock Paper Scissors Game
 
-## Overview
 This project is a browser-based Rock Paper Scissors game where players can compete against the computer in a best-of-five series. The game provides a clean user interface with buttons for each choice and a scoring system to track the results.
 
 
@@ -12,10 +11,10 @@ This project is a browser-based Rock Paper Scissors game where players can compe
 * **Game Page**: <a href="https://bjoernholmlund.github.io/rock-paper-scissor/game.html">Gamepage</a>
 
 ## Features
-- **Homepage**: A welcoming page introducing the game.
+- **Homepage**: A welcoming homepage.
 
-* **Game Page**: Players can select rock, paper, or scissors. The game displays both the player and computer choices, updates scores, and declares a winner after five rounds.
-
+* **Game Page and options**: Players can select rock, paper, or scissors. The game displays both the player and computer choices, updates scores, and declares a winner after five rounds. <br>
+  ![gaming buttons](<assets/images/gaming buttons.png>)<br>
 + **Score Tracking**: Visual score tracking for both player and computer. <br>
 
 - **Popup Instructions**: Instructions are available to help new players understand the game.
