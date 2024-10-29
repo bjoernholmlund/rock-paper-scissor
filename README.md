@@ -12,15 +12,15 @@ Homepage: Rock Paper Scissors Homepage
 Game Page: Play the Game
 
 ## Features
-**Homepage**: A welcoming page introducing the game.
-![homepage](assets/images/homepage.png)
-**Game Page**: Players can select rock, paper, or scissors. The game displays both the player and computer choices, updates scores, and declares a winner after five rounds.
-![gaming](assets/images/gaming.png)
-**Score Tracking**: Visual score tracking for both player and computer. <br>
-![scoretracker](<assets/images/player and computer score.png>)
-**Popup Instructions**: Instructions are available to help new players understand the game.
+- **Homepage**: A welcoming page introducing the game.
 
-**Reset Function**: Resets scores and rounds, allowing players to start a new match at any time.
+* **Game Page**: Players can select rock, paper, or scissors. The game displays both the player and computer choices, updates scores, and declares a winner after five rounds.
+
++ **Score Tracking**: Visual score tracking for both player and computer. <br>
+
+- **Popup Instructions**: Instructions are available to help new players understand the game.
+
+* **Reset Function**: Resets scores and rounds, allowing players to start a new match at any time.
 
 ## Technologies Used
 **HTML**: Structure of the website.
