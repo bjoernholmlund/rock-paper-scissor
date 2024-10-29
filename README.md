@@ -27,9 +27,10 @@ This project is a browser-based Rock Paper Scissors game where players can compe
   ![scoretracker](<assets/images/player and computer score.png>)<br><br>
 
 * **Popup Instructions**: Instructions are available to help new players understand the game.<br><br>
+![instructions](assets/images/instructions.png) <br><br>
 
 + **Reset Function**: Resets scores and rounds, allowing players to start a new match at any time.<br><br>
-
+![restart button](assets/images/restart.png)<br><br>
 ## Technologies Used
 - **HTML**: Structure of the website.
 * **CSS**: Styling for layout, color, and background.
