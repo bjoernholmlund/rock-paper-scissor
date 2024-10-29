@@ -1,9 +1,10 @@
-#Rock Paper Scissors Game
+# Rock Paper Scissors Game
+
 Welcome to Rock Paper Scissors, a classic game brought to life on the web using HTML, CSS, and JavaScript. In this interactive game, players compete against the computer over multiple rounds, aiming to score the highest and ultimately emerge victorious.
 ![mockup](<assets/images/rock, paper, scissor mockup.png>)
 
 
-##Table of Contents
+## Table of Contents
 Overview
 Features
 Technologies
