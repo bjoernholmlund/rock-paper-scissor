@@ -16,7 +16,7 @@ Game Page: Play the Game
 ![homepage](assets/images/homepage.png)
 **Game Page**: Players can select rock, paper, or scissors. The game displays both the player and computer choices, updates scores, and declares a winner after five rounds.
 ![gaming](assets/images/gaming.png)
-**Score Tracking**: Visual score tracking for both player and computer.
+**Score Tracking**: Visual score tracking for both player and computer. <br>
 ![scoretracker](<assets/images/player and computer score.png>)
 **Popup Instructions**: Instructions are available to help new players understand the game.
 
