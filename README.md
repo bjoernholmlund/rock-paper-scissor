@@ -1,38 +1,33 @@
 # Rock Paper Scissors Game
 
-Welcome to Rock Paper Scissors, a classic game brought to life on the web using HTML, CSS, and JavaScript. In this interactive game, players compete against the computer over multiple rounds, aiming to score the highest and ultimately emerge victorious.
+## Overview
+This project is a browser-based Rock Paper Scissors game where players can compete against the computer in a best-of-five series. The game provides a clean user interface with buttons for each choice and a scoring system to track the results.
+
+
 ![mockup](<assets/images/rock, paper, scissor mockup.png>)
 
 
-## Table of Contents
-Overview
-Features
-Technologies
-Getting Started
-Gameplay
-Project Structure
-Future Enhancements
-License
+## Live Demo
+Homepage: Rock Paper Scissors Homepage
+Game Page: Play the Game
 
-Overview
-This game offers an engaging and user-friendly experience with animations, scores, and results displayed in real-time. Each round, players select rock, paper, or scissors, while the computer makes its choice randomly. After five rounds, the player with the higher score is declared the winner.
+## Features
+**Homepage**: A welcoming page introducing the game.
+![homepage](assets/images/homepage.png)
+**Game Page**: Players can select rock, paper, or scissors. The game displays both the player and computer choices, updates scores, and declares a winner after five rounds.
+![gaming](assets/images/gaming.png)
+**Score Tracking**: Visual score tracking for both player and computer.
+![scoretracker](<assets/images/player and computer score.png>)
+**Popup Instructions**: Instructions are available to help new players understand the game.
 
-Features
-Responsive Design: Adjusts to various screen sizes.
-Real-Time Gameplay: Displays player and computer choices, scores, and the final outcome.
-Interactive Popup: Includes an instruction popup to guide new players.
-Score Reset: Option to restart the game at any point.
-Technologies
-HTML5 for structuring content.
-CSS3 for styling and animations.
-JavaScript for game logic and interactivity.
-Getting Started
-Clone the repository:
+**Reset Function**: Resets scores and rounds, allowing players to start a new match at any time.
 
-bash
-Kopiera kod
-git clone https://github.com/bjoernholmlund/rock-paper-scissors.git
-Open the game: Open index.html in your web browser to start playing.
+## Technologies Used
+**HTML**: Structure of the website.
+**CSS**: Styling for layout, color, and background.
+**JavaScript**: Game logic, including random computer choices and score updates.
+
+
 
 Alternatively, you can play the game here.
 
