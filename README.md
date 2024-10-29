@@ -38,8 +38,18 @@ This project is a browser-based Rock Paper Scissors game where players can compe
 
 
 ## Testing
+- **Cross-Browser Testing**:
+ I tested the game across multiple web browsers, including Firefox, Chrome, Opera, and Safari. The game functioned as expected on each, with no issues in game logic, visuals, or interactivity.
 
-### Bugs
+* **Accessibility and Readability**:
+
+- I confirmed that colors and fonts are accessible and easy to read by running the project through Lighthouse in the Chrome DevTools. The game achieved good scores in accessibility, performance, and best practices.
+- You can see the Lighthouse test results below.
+
++ **Device Compatibility**:
+
+I also confirmed that this project works as intended on mobile devices and desktops, ensuring the layout and functionality are responsive and visually consistent across various screen sizes.
+![lighthouse](<assets/images/testing, lighthouse.png>)
 
 ### Validator Testing
 
