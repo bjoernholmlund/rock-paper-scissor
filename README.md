@@ -8,8 +8,8 @@ This project is a browser-based Rock Paper Scissors game where players can compe
 
 
 ## Live Demo
-- **Homepage**: https://bjoernholmlund.github.io/rock-paper-scissor/index.html
-* **Game Page**: https://bjoernholmlund.github.io/rock-paper-scissor/game.html
+- **Homepage**: <a href="https://bjoernholmlund.github.io/rock-paper-scissor/index.html">Homepage</a>
+* **Game Page**: <a href="https://bjoernholmlund.github.io/rock-paper-scissor/game.html">Gamepage</a>
 
 ## Features
 - **Homepage**: A welcoming page introducing the game.
