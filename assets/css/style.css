@@ -140,12 +140,14 @@ body{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .popup{
@@ -218,66 +220,29 @@ body{
     color: #000000; 
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 
-@media (max-width: 500px) {
+@media (min-width: 576px) {
     .h1, .h1-homepage {
-        font-size: 1.2rem; 
-        padding: 10px;
-        text-align: center;
+        font-size: 1.75rem;
     }
 
     .start-btn, .home-btn {
-        font-size: 1.5rem; 
-        padding: 10px 20px;
+        font-size: 1.3rem;
+        padding: 12px 24px;
     }
 
     #choices button {
-        font-size: 2.5rem; 
+        font-size: 1.75rem;
         min-width: 70px;
     }
 
     #reset-btn, .btn {
-        font-size: 1rem; 
-        padding: 10px 15px;
-    }
-
-    #playerDisplay, #computerDisplay {
-        font-size: 1.2rem;
-    }
-
-    #resultDisplay {
-        font-size: 1rem;
-    }
-
-    .popup {
-        width: 50%;
-    }
-
-    .open-popup {
-        max-width: 50%;
-    }
-}
-
-@media (max-width: 800px) {
-    .h1, .h1-homepage {
-        font-size: 1.8rem; 
-        padding: 15px;
-        text-align: center;
-    }
-
-    .start-btn, .home-btn {
-        font-size: 1.8rem; 
-        padding: 12px 25px;
-    }
-
-    #choices button {
-        font-size: 2.8rem; 
-        min-width: 80px;
-    }
-
-    #reset-btn, .btn {
-        font-size: 1.2rem; 
-        padding: 12px 18px;
+        font-size: 1.1rem;
+        padding: 9px 16px;
     }
 
     #playerDisplay, #computerDisplay {
@@ -289,7 +254,72 @@ body{
     }
 
     .popup, .open-popup {
-        width: 70%;
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .h1, .h1-homepage {
+        font-size: 2rem;
+    }
+
+    .start-btn, .home-btn {
+        font-size: 1.5rem;
+        padding: 14px 28px;
+    }
+
+    #choices button {
+        font-size: 2rem;
+        min-width: 80px;
+    }
+
+    #reset-btn, .btn {
+        font-size: 1.2rem;
+        padding: 10px 18px;
+    }
+
+    #playerDisplay, #computerDisplay {
+        font-size: 1.4rem;
+    }
+
+    #resultDisplay {
+        font-size: 1.2rem;
+    }
+
+    .popup, .open-popup {
         max-width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .h1, .h1-homepage {
+        font-size: 2.5rem;
+    }
+
+    .start-btn, .home-btn {
+        font-size: 1.75rem;
+        padding: 16px 32px;
+    }
+
+    #choices button {
+        font-size: 2.5rem;
+        min-width: 90px;
+    }
+
+    #reset-btn, .btn {
+        font-size: 1.3rem;
+        padding: 12px 20px;
+    }
+
+    #playerDisplay, #computerDisplay {
+        font-size: 1.5rem;
+    }
+
+    #resultDisplay {
+        font-size: 1.3rem;
+    }
+
+    .popup, .open-popup {
+        max-width: 600px;
     }
 }
